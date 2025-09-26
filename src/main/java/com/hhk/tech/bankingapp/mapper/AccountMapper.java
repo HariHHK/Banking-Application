@@ -5,15 +5,6 @@ import com.hhk.tech.bankingapp.entity.Account;
 
 public class AccountMapper {
 
-//    public static Account mapToAccount(AccountDto accountDto) {
-//        Account account = new Account(
-//                accountDto.getId(),
-//                accountDto.getAccountHolderName(),
-//                accountDto.getBalance()
-//        );
-//        return account;
-//    }
-
     //Introduced Record class for DTO
 
     public static Account mapToAccount(AccountDto accountDto) {
